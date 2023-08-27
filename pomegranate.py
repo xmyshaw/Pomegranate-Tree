@@ -523,6 +523,7 @@ def final():
             for event in pygame.event.get():
                 if event.type == pygame.MOUSEMOTION:
                     pygame.mouse.set_visible(True)
+                    time.sleep(5)
                     quitmenu()  # quit the game
 
         pygame.display.update()
